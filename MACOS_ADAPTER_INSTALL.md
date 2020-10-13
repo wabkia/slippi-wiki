@@ -53,7 +53,8 @@ If for whatever reason you're unable to install the kext, an alternate approach 
 1. Open Slippi, open `Controller` settings  
 1. Change `Gamecube Controller Port 1` from `Gamecube Adapter for WiiU` to `Standard Controller`  
 1. Click `configure` next to `Standard Controller`  
-1. In the `Device` list in the top left of the new window, you should see 2-4 devices named like `DInput/0/MAYFLASH GameCube Controller Adapter`, select the port your controller is plugged into.
+1. In the `Device` list in the top left of the new window, you should see 2-4 devices named like `DInput/0/MAYFLASH GameCube Controller Adapter`  
+1. Select the port your controller is plugged into.
     * This list starts at 0, which is the first port on the adapter.  
 1. Go through each button and map it to your GameCube Controller.
 
