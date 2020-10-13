@@ -1,3 +1,4 @@
+#theme: jekyll-theme-midnight
 # Table of Contents
 
 | Link | Description |
