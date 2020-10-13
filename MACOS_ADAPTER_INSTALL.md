@@ -48,6 +48,7 @@ It's an Apple-specific issue that nobody here has control over. We're all in the
 ## _**Still having trouble?**_  
 
 If for whatever reason you're unable to install the kext, an alternate approach that @vamus found is below but it's input latency will be slightly higher:
+
 1. Close Slippi  
 1. Switch the adapter into "PC Mode" using the hardware switch on the adapter  
 1. Open Slippi, open `Controller` settings  
