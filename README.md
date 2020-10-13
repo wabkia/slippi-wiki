@@ -1,5 +1,3 @@
-theme: jekyll-theme-midnight
-title: Slippi Wiki
 # Table of Contents
 
 | Link | Description |
