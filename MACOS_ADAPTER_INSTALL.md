@@ -9,7 +9,7 @@ If you have a official Nintendo adapter, or a Mayflash adapter, follow the below
 
 > NOTE: MacOS versions below 10.13 "High Sierra" are **NOT** supported
 
-#### **When entering terminal commands, pay attention to the output: if it says no such file, failure, or anything of the sorts, start from step 1. Third party offbrand adapters may or may not work.**
+> INFO: **When entering terminal commands, pay attention to the output! If it says no such file, failure, or anything of the sorts, start again from Step 1. Third party offbrand adapters may or may not work.**
 
 ## Step 1:
 1. Boot your Mac into recovery mode by restarting and holding CMD + R until the Apple logo appears.
