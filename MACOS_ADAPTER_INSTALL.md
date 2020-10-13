@@ -20,7 +20,7 @@ If you have a official Nintendo adapter, or a Mayflash adapter, follow the below
 
 ## Step 2:
 1. Open a terminal. (This can be found in Applications -> Utilities -> Terminal).
-1. Run: `curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/project-slippi/Ishiiruka/slippi/Data/install_smashenabler.sh \| sh`
+1. Run: `curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/project-slippi/Ishiiruka/slippi/Data/install_smashenabler.sh | sh`
     * Follow the prompts, pay attention to the output.
 
 ## Step 3:
@@ -38,7 +38,7 @@ Your kext should now be installed. If Slippi still fails to read your controller
 ### If you still have issues
 
 1. In a terminal, run:  
-`ioreg \| grep WUP-028 -A6`
+`ioreg | grep WUP-028 -A6`
 1. Copy the output into PasteBin (www.pastebin.com)
 1. Paste the link, MacOS version, Mac model, and adapter model to **\#mac-support** in [Slippi Discord](http://discord.gg/pPfEaW5) 
 
