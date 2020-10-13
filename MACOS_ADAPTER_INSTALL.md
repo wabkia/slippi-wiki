@@ -2,9 +2,7 @@
   <img src="https://slippi.gg/static/media/SlippiLogo.81afd6df.svg"/>
 </p>
 
-title: MacOS Gamecube Controller Adapter Install
-
-# Adapter Kext Installation
+# Gamecube Controller Adapter Kext Installation
 If you have a official Nintendo adapter, or a Mayflash adapter, follow the below steps exactly for Gamecube controller support under macOS. 
 
 > WARNING: **ALL STEPS MUST BE COMPLETED FOR THE ADAPTER TO FUNCTION PROPERLY.**
