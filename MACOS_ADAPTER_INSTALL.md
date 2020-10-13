@@ -58,4 +58,4 @@ If for whatever reason you're unable to install the kext, an alternate approach 
 	    * This list starts at 0, which is the first port on the adapter
 	1. Go through each button and map it to your GameCube Controller.
 
-    > NOTE: As this method doesn't use the kext to handle controller recognition, it may perform differently. If you experience issues (input lag in particular) with this method, sounding off in the chat would be helpful.
+> NOTE: As this method doesn't use the kext to handle controller recognition, it may perform differently. If you experience issues (input lag in particular) with this method, sounding off in the chat would be helpful.
