@@ -1,15 +1,15 @@
-# MacOS Gamecube Controller Adapter Install
-
 <p align="center">
   <img src="https://slippi.gg/static/media/SlippiLogo.81afd6df.svg"/>
 </p>
 
+title: MacOS Gamecube Controller Adapter Install
+
 # Adapter Kext Installation
 If you have a official Nintendo adapter, or a Mayflash adapter, follow the below steps exactly for Gamecube controller support under macOS. 
 
-> WARNING: ALL STEPS MUST BE COMPLETED FOR THE ADAPTER TO FUNCTION PROPERLY.
+> WARNING: **ALL STEPS MUST BE COMPLETED FOR THE ADAPTER TO FUNCTION PROPERLY.**
 
-> NOTE: MacOS versions below 10.13 "High Sierra" are NOT supported
+> NOTE: MacOS versions below 10.13 "High Sierra" are **NOT** supported
 
 #### **When entering terminal commands, pay attention to the output: if it says no such file, failure, or anything of the sorts, start from step 1. Third party offbrand adapters may or may not work.**
 
