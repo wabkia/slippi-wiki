@@ -45,17 +45,17 @@ Your kext should now be installed. If Slippi still fails to read your controller
 ### WHY IS THIS SO DIFFICULT?!
 It's an Apple-specific issue that nobody here has control over. We're all in the same boat.
 
-_**Still having trouble?**_  
+## _**Still having trouble?**_  
 
-    * If for whatever reason you're unable to install the kext, an alternate approach that @vamus found is below but it's input latency will be slightly higher:
-        1. Close Slippi
-		1. Switch the adapter into "PC Mode" using the hardware switch on the adapter
-		1. Open Slippi, open `Controller` settings
-		1. Change `Gamecube Controller Port 1` from `Gamecube Adapter for WiiU` to `Standard Controller`
-		1. Click `configure` next to `Standard Controller`
-		1. In the `Device` list in the top left of the new window, you should see 2-4 devices named like:  
-		`DInput/0/MAYFLASH GameCube Controller Adapter`
-		    * This list starts at 0, which is the first port on the adapter
-		1. Go through each button and map it to your GameCube Controller.
+If for whatever reason you're unable to install the kext, an alternate approach that @vamus found is below but it's input latency will be slightly higher:
+    1. Close Slippi
+	1. Switch the adapter into "PC Mode" using the hardware switch on the adapter
+	1. Open Slippi, open `Controller` settings
+	1. Change `Gamecube Controller Port 1` from `Gamecube Adapter for WiiU` to `Standard Controller`
+	1. Click `configure` next to `Standard Controller`
+	1. In the `Device` list in the top left of the new window, you should see 2-4 devices named like:  
+	`DInput/0/MAYFLASH GameCube Controller Adapter`
+	    * This list starts at 0, which is the first port on the adapter
+	1. Go through each button and map it to your GameCube Controller.
 
     > NOTE: As this method doesn't use the kext to handle controller recognition, it may perform differently. If you experience issues (input lag in particular) with this method, sounding off in the chat would be helpful.
