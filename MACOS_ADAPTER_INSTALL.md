@@ -1,6 +1,8 @@
 # MacOS Gamecube Controller Adapter Install
 
-![image of slippi](https://slippi.gg/static/media/SlippiLogo.81afd6df.svg)
+<p align="center">
+  <img src="https://slippi.gg/static/media/SlippiLogo.81afd6df.svg"/>
+</p>
 
 # Adapter Kext Installation
 If you have a official Nintendo adapter, or a Mayflash adapter, follow the below steps exactly for Gamecube controller support under macOS. 
@@ -15,7 +17,7 @@ If you have a official Nintendo adapter, or a Mayflash adapter, follow the below
 1. Boot your Mac into recovery mode by restarting and holding CMD + R until the Apple logo appears.
 1. Open a terminal (Utilities in menu bar -> Terminal)
 1. Run: `csrutil disable`  
-    * This disables SIP protection. Don't worry - you'll re-enable this in a bit. It is required for loading the kernel extension for the adapter.
+    * This disables SIP protection. Don't worry - you'll re-enable this in a bit. It is required for loading the kernel extension for the adapter.  
 1. Reboot into normal macOS.
 
 ## Step 2:
@@ -27,7 +29,7 @@ If you have a official Nintendo adapter, or a Mayflash adapter, follow the below
 1. Boot your Mac into recovery mode by restarting and holding CMD + R until the Apple logo appears.
 1. Open a terminal (Utilities in menu bar -> Terminal)
 1. Run: `csrutil enable --without kext`
-    * This will say unsupported configuration. This command re-enables SIP, but leaves you the ability to load unsigned kernel extensions on-demand, which is what the adapter requires.
+    * This will say unsupported configuration. This command re-enables SIP, but leaves you the ability to load unsigned kernel extensions on-demand, which is what the adapter requires.  
 1. Reboot into normal macOS.
 
 ### Testing/Post Reboot Ritual
